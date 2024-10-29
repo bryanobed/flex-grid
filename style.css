@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(3, 50px);
+    gap: 6px;
+    background: grey;
+    height: 300px;
+  
+    justify-items: stretch;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .item {
+    padding: 10px;
+    background: black;
+    color: white;
+  }
